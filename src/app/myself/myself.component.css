@@ -1,6 +1,8 @@
 .myself{
     height: 60vh;
-    width:100vw;
+    margin:0;
+    padding:0;
+
     background-image: linear-gradient(to left, #deefff, #ddeeff, #dcecff, #dbebff, #dbe9ff, #dce9ff, #dce9fe, #dde9fe, #dfebfd, #e2ecfd, #e4eefc, #e7effb);
 }
 
