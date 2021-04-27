@@ -1,0 +1,16 @@
+
+.school{
+    height: inherit;
+}
+p{
+    color:white;
+}
+
+.carousel-item{
+    height:800px;
+}
+
+.carousel-item img{
+    height: 100% !important;
+    object-fit: cover;
+}

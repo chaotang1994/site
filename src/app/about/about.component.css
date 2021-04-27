@@ -1,0 +1,36 @@
+.about{
+    height: auto;
+    width: 100vw;
+    background-color: #000000;
+}
+
+h3{
+    color:white;
+    font-family: "Playfair Display", Georgia, serif;
+    font-weight: 300;
+    font-size:30px;
+    box-sizing: border-box;
+    letter-spacing: 5px;
+    line-height: 1.8;
+    text-decoration: none;
+}
+
+h6{
+    color:white;
+    letter-spacing: 2px;
+    line-height: 1.8;
+    text-decoration: none;
+}
+
+p{
+    font-family: Arial, sans-serif;
+    color:#9ea2a5;
+    letter-spacing: 2px;
+    font-size: 14px;
+    line-height: 6mm;
+    text-decoration: none;
+}
+
+img{
+    font-size:20px;
+}

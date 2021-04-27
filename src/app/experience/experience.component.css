@@ -1,0 +1,71 @@
+.experience{
+    height: auto;
+    width: 100vw;
+    background-image: linear-gradient(to right, #2b96f8, #489cf9, #5ca1fb, #6ca7fc, #7badfd, #78b6ff, #78bfff, #7bc7ff, #78d3ff, #7ddfff, #87eaff, #96f4fd);
+}
+
+
+.clearfix{
+    width: 80%;
+    padding-top:50px;
+
+}
+
+h3{
+    color:white;
+    font-family: "Playfair Display", Georgia, serif;
+    font-weight: 300;
+    font-size:30px;
+    box-sizing: border-box;
+    letter-spacing: 5px;
+    line-height: 1.8;
+}
+
+
+
+.card{
+    margin-bottom:20px;
+    margin-top:10px;
+    padding-top:0;
+    padding-bottom:10px;
+    opacity: 0.95;
+    border:none;
+}
+
+.card:hover{
+    box-shadow: 0 5px 15px rgba(228, 243, 141, 0.897);
+    opacity: 1;
+    transition:0.8s;
+}
+
+
+.card-title span{
+    text-decoration: none;
+    font-size:20px;
+    font-weight: 800;
+    padding-left:0;
+}
+
+h5{
+    font-size:16px;
+    font-weight: 200;
+    text-decoration: none;
+    padding-left:0;
+}
+
+span{
+    text-decoration: none;
+    font-size:18px;
+    font-weight: 600;
+    padding-left:0;
+    text-transform: uppercase;
+}
+
+.unorderList{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+img{
+    height: 220px;
+}
