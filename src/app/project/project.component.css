@@ -10,6 +10,8 @@
 .container{
     margin-top:80px;
     margin-bottom:80px;
+    display:grid;
+    background-color:Red;
 }
 
 h3{
@@ -24,10 +26,13 @@ h3{
 
 .row{
     text-indent:4mm;
+    background-color: aqua;
 }
 
 .col-sml{
     margin-left:10px;
+    background-color: rgb(94, 255, 0);
+    
 }
 
 h6{
