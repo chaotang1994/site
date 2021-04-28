@@ -1,8 +1,27 @@
 <div class="home">
 
-        <app-myself></app-myself>
-        <app-experience></app-experience>
-        <app-project></app-project>
-        <app-about></app-about>
+        <div class="sidenav">
+                <span (click)="ScrollIntoView('#myself')">Home</span>
+                <span (click)="ScrollIntoView('#experience')">Experience</span>
+                <span (click)="ScrollIntoView('#project')">Project</span>
+                <span (click)="ScrollIntoView('#about')">About Me</span>
+        </div>
 
+        <div id="myself">
+                <app-myself ></app-myself>
+        </div>
+
+        <div id="experience">
+                <app-experience ></app-experience>
+        </div>
+
+        <div id="project">
+                <app-project></app-project>
+        </div>
+
+        
+
+        <div id="about">
+                <app-about ></app-about>
+        </div>
 </div>

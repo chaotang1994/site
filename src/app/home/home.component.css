@@ -3,6 +3,46 @@
     width: auto;
     padding-left:0;
     padding-right:0;
-    overflow:hidden;
+    position:relative;
 }
 
+
+
+.sidenav {
+    width: 110px;
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    right: 10px;
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+    overflow-x: hidden;
+    padding: 8px 0;
+    border-radius: 40px;
+  }
+  
+  .sidenav span {
+    
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    display: block;
+    font-family: "Playfair Display", Georgia, serif;
+  }
+
+
+.sidenav span:hover{
+    cursor:pointer;
+    color:#2196F3;
+    transition:0.3s;
+}
+
+
+
+@media screen and (max-height: 400px) {
+    .sidenav {
+        padding-top: 8px;
+        padding-bottom:8px;
+    }
+    .sidenav span {font-size: 8px;}
+}
