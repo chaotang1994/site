@@ -12,5 +12,5 @@ p{
 
 .carousel-item img{
     height: 100% !important;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
