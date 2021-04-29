@@ -18,6 +18,11 @@
     overflow-x: hidden;
     padding: 8px 0;
     border-radius: 40px;
+    opacity: 0.5;
+  }
+
+  .sidenav:hover{
+    opacity: 1;
   }
   
   .sidenav span {
