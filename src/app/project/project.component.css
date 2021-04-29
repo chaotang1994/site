@@ -1,5 +1,5 @@
 .project{
-    height: auto;
+    height: 100vh;
     width: 100vw;
     background-color: #FA8BFF;
     background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);    
@@ -25,7 +25,7 @@ h3{
 
 .row{
     height: 500px;
-    
+    background-color: brown;
 }
 
 
